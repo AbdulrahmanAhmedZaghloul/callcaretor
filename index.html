@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="per">
+        <div class="nem">
+            <input id="calc" type="text" placeholder="0">
+            <div class="nem">
+                <button id="c"  onclick="Clear()">c</button>
+                <button id="div"  onclick="display('/')">/</button>
+                <button id="equal"  onclick="calc('=')"> =</button>
+                <button id="puls" onclick="display('+')">+</button>
+                <br>
+                <button id="9"  onclick="display('9')"> 9</button>
+                <button id="8" onclick="display('8')">8</button>
+                <button id="7"  onclick="display('7')">7</button>
+                <button id="mul"  onclick="display('*')">*</button>
+                <br>
+                <button id="6" onclick="display('6')" >6</button>
+                <button id="5"  onclick="display('5')">5</button>
+                <button id="4"  onclick="display('4')">4</button>
+                <button id="min"  onclick="display('_')">_</button>
+                <br>
+                <button id="1"  onclick="display('2')">2</button>
+                <button id="1" onclick="display('1')" >1</button>
+                <button id="0"  onclick="display('0')">0</button>
+                <button id="del" onclick="Delete('')" >del</button>
+
+                <button id="dec"  onclick="display()">.</button>
+
+                <br>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
